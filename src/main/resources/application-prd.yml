@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://tramway.proxy.rlwy.net:50201/railway
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
